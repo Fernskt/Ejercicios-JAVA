@@ -33,6 +33,7 @@ public class Extra4 {
             for (int j = 0; j < notas[i].length; j++) {
                 System.out.println("Ingrese la nota "+(j+1)+" del " + (i+1) + "° alumno");
                 notas[i][j] = leer.nextInt();
+                notas[i][j] = leer.nextInt();
             }
 
         }
